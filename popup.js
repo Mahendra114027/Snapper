@@ -9,7 +9,7 @@ chrome.storage.sync.get('pop_href', function (data) {
 	document.getElementById('desc').innerHTML=newdata[0].description;
 	document.getElementById('url').href=newdata[0].url;
 	document.getElementById('loc').innerHTML=newdata[0].location;
-	document.getElementById('loc').children[0].target="_blank";	
+	/* document.getElementById('loc').children[0].target="_blank";	 */
 
 });
 
