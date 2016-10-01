@@ -34,13 +34,14 @@ body
 {
 	text-transform: uppercase;
 	text-shadow: 3px 3px #FFFF8D;
-	font-size: 40px;
+	font-size: 35px;
 	color: #00695C;
 }
 #postButton
 {
 	float : right;
 	padding: 10px;
+	margin-bottom:10px;
 }
 #url
 {
@@ -49,12 +50,13 @@ body
 }
 #desc
 {
-	font-size: 25px;
+	font-size: 20px;
 	font-family: Comic Sans MS;
 	padding:10px;
 }
 #loc
 {
-	font-size:20px;
+	font-size:15px;
+	padding-top:3px;
 	padding:10px;
 }

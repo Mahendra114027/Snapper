@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
 var newdata;
 chrome.storage.sync.get('pop_href', function (data) {
 	newdata=data.pop_href;
-
 	
 	document.getElementById('log').src=newdata[0].image;
 	document.getElementById('name').innerHTML=newdata[0].title;
@@ -21,12 +20,12 @@ btn.addEventListener('click',function()
 	var method = "POST";
 	var postData =JSON.stringify(newdata);
 	console.log(postData.toString());
-	/* {"body":[
-		{"title":},
-		{"description":},
-		{"image":},
-		{"url":},
-		{"location":}
+	/* {"product":[
+		{"title":newdata[0].title},
+		{"description":newdata[0].description},
+		{"image":newdata[0].image},
+		{"url":newdata[0].url},
+		{"location":newdata[0].location}
 	]	
 	}
 	"; */
@@ -41,6 +40,7 @@ btn.addEventListener('click',function()
 
 	   var status = request.status;
 	   var data = request.responseText; 
+		console.log(request.responseText);   
 	}
 
 	request.open(method, url, async); 
