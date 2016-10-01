@@ -1,0 +1,60 @@
+body
+{
+	margin:0;
+	padding: 10px;
+}
+#bckimg
+{
+	background-size:cover;
+	background-position:center;
+	background-repeat:none;
+}
+#y1 
+{
+	text-align: center;
+	background-color: #2196F3;
+	color: white; 
+	padding: 10px;
+}
+#y 
+{
+	text-align: center;
+	background-color: #F44336;
+	color: white;
+	padding:5px;
+}
+#log 
+{
+	padding-bottom: 10px;
+/* 	-webkit-border-image:url(http://www.panabee.com/images/dumpling/footer_list.png) 0 0 8 0 round;*/
+    border-color: #311B92;
+	border-bottom-width: 5px;
+}
+#name 
+{
+	text-transform: uppercase;
+	text-shadow: 3px 3px #FFFF8D;
+	font-size: 40px;
+	color: #00695C;
+}
+#postButton
+{
+	float : right;
+	padding: 10px;
+}
+#url
+{
+	font-size: 15px;
+	padding: 10px;
+}
+#desc
+{
+	font-size: 25px;
+	font-family: Comic Sans MS;
+	padding:10px;
+}
+#loc
+{
+	font-size:20px;
+	padding:10px;
+}
