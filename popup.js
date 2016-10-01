@@ -1,4 +1,4 @@
-
+/* This is the main JS behind all the work plugin is doing and is also the source script of popup.html */
 document.addEventListener('DOMContentLoaded', function() {
 var newdata;
 chrome.storage.sync.get('pop_href', function (data) {

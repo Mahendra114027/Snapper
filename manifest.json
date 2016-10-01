@@ -22,7 +22,6 @@
   ],
   "permissions": [
     "activeTab",
-    "<all_urls>",
 	"storage",
 	"tabs"
   ]

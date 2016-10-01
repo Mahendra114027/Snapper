@@ -1,61 +1,62 @@
-body
-{
+/* Styling for Body tag */
+body{
 	margin:0;
 	padding: 10px;
 }
-#bckimg
-{
+/* Styling for the Background image */
+#bckimg{
 	background-size:cover;
 	background-position:center;
 	background-repeat:none;
 }
-#y1 
-{
+/* Styling for Plugin Name */ 
+#plugin{
 	text-align: center;
 	background-color: #2196F3;
 	color: white; 
 	padding: 10px;
 }
-#y 
-{
+/* Styling for Startup Details */
+#details{
 	text-align: center;
 	background-color: #F44336;
 	color: white;
 	padding:5px;
 }
-#log 
-{
+/* Styling for Startup logo */
+#log{
 	padding-bottom: 10px;
-/* 	-webkit-border-image:url(http://www.panabee.com/images/dumpling/footer_list.png) 0 0 8 0 round;*/
+	/*below comment has border for image */
+	/* -webkit-border-image:url(http://www.panabee.com/images/dumpling/footer_list.png) 0 0 8 0 round;*/
     border-color: #311B92;
 	border-bottom-width: 5px;
 }
-#name 
-{
+/* Styling for Name of the Startup */
+#name{
 	text-transform: uppercase;
 	text-shadow: 3px 3px #FFFF8D;
 	font-size: 35px;
 	color: #00695C;
 }
-#postButton
-{
+/* Styling for POST button */
+#postButton{
 	float : right;
 	padding: 10px;
 	margin-bottom:10px;
 }
-#url
-{
+/* Styling for Website link */
+#url{
 	font-size: 15px;
 	padding: 10px;
 }
-#desc
-{
+/* Styling for Description of Startup */
+#desc{
 	font-size: 20px;
 	font-family: Comic Sans MS;
 	padding:10px;
 }
-#loc
-{
+/* Styling for Location of Startup */
+#loc{
 	font-size:15px;
 	padding-top:3px;
 	padding:10px;
