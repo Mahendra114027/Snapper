@@ -4,12 +4,12 @@ var newdata;/*New variable to pass json object*/
 chrome.storage.sync.get('pop_href', function (data) {
 	newdata=data.pop_href;
 	
-	document.getElementById('log').src=newdata[0].image;
-	document.getElementById('name').innerHTML=newdata[0].title;
-	document.getElementById('desc').innerHTML=newdata[0].description;
-	document.getElementById('url').href=newdata[0].url;
-	document.getElementById('loc').innerHTML=newdata[0].location;
-	/* document.getElementById('loc').children[0].target="_blank";	 */
+	document.getElementById('log').src=newdata.image;
+	document.getElementById('name').innerHTML=newdata.title;
+	document.getElementById('desc').innerHTML=newdata.description;
+	document.getElementById('url').href=newdata.url;
+	document.getElementById('loc').innerHTML=newdata.location;
+	document.getElementById('loc').children[0].target="_blank";	 
 
 });
 
